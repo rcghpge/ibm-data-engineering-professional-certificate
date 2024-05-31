@@ -1,5 +1,5 @@
 # Final Project: ETL on Banking Data for World's Largest Banks
-# dowload exchange rate data: wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv
+# download exchange rate data: wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv
 
 # Import required libraries
 import requests
