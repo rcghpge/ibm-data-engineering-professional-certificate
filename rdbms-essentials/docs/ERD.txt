@@ -1,0 +1,24 @@
+Tasks 1 - 4: Identify Entities, Identify Attributes, Create an ERD, Normalize Tables, Define Keys and Relationships
+
+Entities:
+Staff
+- Attributes: staff_id, first_name, last_name, position, start_date, location
+
+Sales Outlet
+- Attributes: sales_outlet_id, sales_outlet_type, address, city, telephone, postal_code, manager
+
+Sales Transaction
+- Attributes: transaction_id, transaction_date, transaction_time, sales_outlet_id, staff_id, customer_id, product_id, 
+quantity, price
+
+Customer
+- Attributes: customer_id, customer_name, customer_email, customer_since, customer_card_number, birthdate, gender
+
+Product
+- Attributes: product_id, product_category, product_type, product_name, description, price
+
+Relationships:
+- Staff is associated with Sales Transactions via staff_id.
+- Sales Outlet is linked to Sales Transactions via sales_outlet_id.
+- Customer is connected to Sales Transactions via customer_id.
+- Product is related to Sales Transactions via product_id.
